@@ -31,11 +31,11 @@ fi
 get_davinci_resolve_version
 
 # Define the URLs for the missing packages from mirrors.kernel.org
-LIBPANGO_URL="http://mirrors.kernel.org/ubuntu/pool/main/p/pango1.0/libpango-1.0-0_1.50.6+ds-2ubuntu1_amd64.deb"
-LIBPANGOFT2_URL="http://mirrors.kernel.org/ubuntu/pool/main/p/pango1.0/libpangoft2-1.0-0_1.50.6+ds-2ubuntu1_amd64.deb"
-LIBPANGOCAIRO_URL="http://mirrors.kernel.org/ubuntu/pool/main/p/pango1.0/libpangocairo-1.0-0_1.50.6+ds-2ubuntu1_amd64.deb"
-LIBGDK_PIXBUF_URL="http://mirrors.kernel.org/ubuntu/pool/main/g/gdk-pixbuf/libgdk-pixbuf-2.0-0_2.42.8+dfsg-1ubuntu0.3_amd64.deb"
-LIBPANGOFT2_ALT_URL="http://mirrors.kernel.org/ubuntu/pool/main/p/pango1.0/libpangoft2-1.0-0_1.50.6+ds-2_amd64.deb"
+LIBPANGO_URL="https://mirrors.kernel.org/ubuntu/pool/main/p/pango1.0/libpango-1.0-0_1.50.6+ds-2ubuntu1_amd64.deb"
+LIBPANGOFT2_URL="https://mirrors.kernel.org/ubuntu/pool/main/p/pango1.0/libpangoft2-1.0-0_1.50.6+ds-2ubuntu1_amd64.deb"
+LIBPANGOCAIRO_URL="https://mirrors.kernel.org/ubuntu/pool/main/p/pango1.0/libpangocairo-1.0-0_1.50.6+ds-2ubuntu1_amd64.deb"
+LIBGDK_PIXBUF_URL="https://mirrors.kernel.org/ubuntu/pool/main/g/gdk-pixbuf/libgdk-pixbuf-2.0-0_2.42.8+dfsg-1ubuntu0.3_amd64.deb"
+LIBPANGOFT2_ALT_URL="https://mirrors.kernel.org/ubuntu/pool/main/p/pango1.0/libpangoft2-1.0-0_1.50.6+ds-2_amd64.deb"
 
 # Download and install missing system packages
 echo "Downloading and installing missing system packages..."
